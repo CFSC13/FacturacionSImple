@@ -1,0 +1,66 @@
+
+    div, nav, footer{ 
+     float: left; 
+    } 
+
+    #usuario {
+        float: left;
+        width: 50%;
+ 
+    }
+
+    #sesion {
+        float: right;
+        width: 50%;
+ 
+    }
+
+    .sesion { 
+        background-color: rgb(200, 28, 157);
+        margin: 1%;
+        float: right;         
+    } 
+    
+    .footer { 
+        background-color: rgb(44, 151, 166);
+        margin: 1%;
+        float: left; 
+        
+    } 
+    
+
+
+    .item { 
+        background-color: aqua;
+        margin: 1%;
+        float: left; 
+    } 
+
+
+    #header{ 
+     width: 100%; 
+     background-color: rgb(200, 37, 153); 
+    } 
+
+    #nav{ 
+     width: 100%; 
+     background-color: red; 
+    } 
+    
+    #content{
+        width: 100%; 
+        background-color: rgb(10, 32, 99); 
+    }
+    #div1{ 
+     width: 50%; 
+     background-color: green; 
+    } 
+    #div2{ 
+     width: 50%; 
+     background-color: blue; 
+    } 
+    #footer{ 
+     width: 100%; 
+     background-color: yellow; 
+    } 
+
