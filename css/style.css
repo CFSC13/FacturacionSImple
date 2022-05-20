@@ -1,7 +1,23 @@
-
-    div, nav, footer{ 
+    body {
+        margin: 0px auto
+    }
+    /* par que no tenga margen */
+    header{ 
      float: left; 
-    } 
+     width: 100%; 
+     background-color: rgb(200, 37, 153);
+    
+    }     
+    footer{ 
+     float: left; 
+     width: 100%; 
+     background-color: rgb(200, 37, 153);
+    }   
+    nav{ 
+        float: left;
+        width: 100%; 
+        background-color: rgb(28, 176, 55); 
+       } 
 
     #usuario {
         float: left;
@@ -20,47 +36,40 @@
         margin: 1%;
         float: right;         
     } 
-    
-    .footer { 
-        background-color: rgb(44, 151, 166);
-        margin: 1%;
-        float: left; 
-        
-    } 
-    
-
-
+   
     .item { 
         background-color: aqua;
         margin: 1%;
         float: left; 
-    } 
-
-
-    #header{ 
-     width: 100%; 
-     background-color: rgb(200, 37, 153); 
-    } 
-
-    #nav{ 
-     width: 100%; 
-     background-color: red; 
-    } 
+    }    
     
     #content{
+        float: left;
         width: 100%; 
         background-color: rgb(10, 32, 99); 
     }
-    #div1{ 
+
+    #div1{
+     float: left;       
      width: 50%; 
      background-color: green; 
     } 
+
     #div2{ 
+    float: left; 
      width: 50%; 
      background-color: blue; 
     } 
-    #footer{ 
+
+    footer{
+     float: left; 
      width: 100%; 
      background-color: yellow; 
     } 
+
+    .footer{ 
+     float: left; 
+     width: 50%; 
+     background-color: rgb(200, 37, 153);
+    }
 
