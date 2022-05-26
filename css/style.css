@@ -6,17 +6,17 @@
      float: left; 
      width: 100%; 
      background-color: rgb(200, 37, 153);
+     padding: 1%;
+    margin: 1%;
     
     }     
-    footer{ 
-     float: left; 
-     width: 100%; 
-     background-color: rgb(20, 4, 15)
-    }   
+     
     nav{ 
         float: left;
         width: 100%; 
         background-color: rgb(28, 176, 55); 
+        padding: 1%;
+        margin: 1%;
        } 
 
     #usuario {
@@ -43,31 +43,40 @@
         float: left; 
     }    
     
-    #content{
+    #content{/*clase footer*/
         float: left;
         width: 100%; 
         background-color: rgb(10, 32, 99); 
+        padding: 1%;
+        margin: 1%;
     }
 
     #div1{
      float: left;       
-     width: 50%; 
+     width: 46%; 
      background-color: green; 
+     padding: 1%;
+     margin: 1%;
     } 
 
     #div2{ 
     float: left; 
-     width: 50%; 
+     width: 46%; 
      background-color: blue; 
+     padding: 1%;
+     margin: 1%;
     } 
 
-    footer{
-     float: left; 
-     width: 100%; 
-     background-color: yellow; 
-    } 
+   
+    footer{ 
+        float: left; 
+        width: 100%; 
+        background-color: rgb(20, 4, 15);
+        padding: 1%;
+        margin: 1%;
+       } 
 
-    .footer{ 
+    .footer{ /*clase footer*/
      float: left; 
      width: 50%; 
      background-color: rgb(200, 37, 153);
