@@ -1,20 +1,23 @@
+
+
+    
     body {
-        margin: 0px auto
+        margin: 0px auto;
+        background-color: #fff;
+        
     }
     /* par que no tenga margen */
     header{ 
      float: left; 
-     width: 100%; 
-     background-color: rgb(200, 37, 153);
+     width: 96%; 
      padding: 1%;
-    margin: 1%;
     
     }     
      
     nav{ 
+        background-color: #007fa2;
         float: left;
-        width: 100%; 
-        background-color: rgb(28, 176, 55); 
+        width: 96%; 
         padding: 1%;
         margin: 1%;
        } 
@@ -32,21 +35,27 @@
     }
 
     .sesion { 
-        background-color: rgb(200, 28, 157);
         margin: 1%;
         float: right;         
     } 
    
-    .item { 
-        background-color: aqua;
+    .itemnav { 
+        
         margin: 1%;
         float: left; 
-    }    
+    }  
+    ul {
+        list-style: none;
+    } 
+    a{
+        text-decoration: none;
+        color: white;
+        font-size:x-large;
+    } 
     
     #content{/*clase footer*/
         float: left;
-        width: 100%; 
-        background-color: rgb(10, 32, 99); 
+        width: 96%; 
         padding: 1%;
         margin: 1%;
     }
@@ -54,7 +63,6 @@
     #div1{
      float: left;       
      width: 46%; 
-     background-color: green; 
      padding: 1%;
      margin: 1%;
     } 
@@ -62,16 +70,15 @@
     #div2{ 
     float: left; 
      width: 46%; 
-     background-color: blue; 
      padding: 1%;
      margin: 1%;
     } 
 
    
     footer{ 
+        
         float: left; 
-        width: 100%; 
-        background-color: rgb(20, 4, 15);
+        width: 96%; 
         padding: 1%;
         margin: 1%;
        } 
@@ -79,6 +86,32 @@
     .footer{ /*clase footer*/
      float: left; 
      width: 50%; 
-     background-color: rgb(200, 37, 153);
+    
     }
+    /* se agrego de w3school */
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #111;
+      }
 
