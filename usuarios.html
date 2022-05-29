@@ -37,34 +37,38 @@
   
     
     <div id="content">
-         <div id="div1">
-            <form action="formulario.php">
-                <h3>Datos de Factura</h3>
-                <p>
-                    <label>Cliente:</label>
-                    <input type="text" name="cliente"required>
-                </p>
-                <p>
-                    <label>Vendedor:</label>
-                    <input type="text" name="vendedor"  required>
-                </p>
-                <p>
-                    <label>Forma de pago</label>
-                    <select name="pago">
-                        <option value="1"selected>Efectivo</option>
-                        <option value="2">Debito</option>
-                        <option value="3" >Crédito</option>
-                    </select>
-                </p>
-                <p>
-                    <input type="submit" name="" value="Cargar">
-                </p>                  
-            </form>                        
-        </div>
-        <div id="div2">
-            <h3>Detalles de Factura </h3>          
-        </div>      
+        <form action="formulario.php">
+            <h1>Registro de Usuarios</h1>
+            <p>
+                <label>Nombre:</label>
+                <input type="text" name="nombre"required>
+            </p>
+            <p>
+                <label>Apellido:</label>
+                <input type="text" name="apellido"  required>
+            </p>
+            <p>
+             <label>Tipo de Usuario:</label>
+             <input type="text" name="tipoDeUsuario"  required>
+             </p>
+            <p>
+                <input type="submit" name="" value="Guardar">
+            </p>                  
+        </form>                        
+    </div>     
     </div>
+
+    <form action="formulario.php" method="post">
+
+        <p>
+      
+          Buscar Usuario: <input type="search" name="busquedaUsurio" placeholder="Nombre, Apellido">
+      
+          <input type="submit" value="Buscar">
+      
+        </p>
+      
+    </form>
 
     <footer>       
         <ul>
