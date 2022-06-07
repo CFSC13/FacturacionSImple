@@ -59,10 +59,48 @@
                 <p>
                     <input type="submit" name="" value="Cargar">
                 </p>                  
-            </form>                        
+            </form> 
+            <form action="formulario.php" method="post">
+                <p>      
+                  Buscar Producto: <input type="search" name="busquedaProducto" placeholder="Nombre, Descripción">      
+                  <input type="submit" value="Buscar">      
+                </p>      
+            </form>                       
         </div>
         <div id="div2">
-            <h3>Detalles de Factura </h3>          
+            <h3>Detalles de Factura </h3> 
+            <table class="">
+                <thead>
+                  <tr>
+                    <th>Cant.</th>
+                    <th>Descripcion</th>
+                    <th>Precio Unitario</th>
+                    <th>Importe</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Teclado</td>
+                    <td>3,000.00</td>
+                    <td>3,000.00</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Mouse</td>
+                    <td>4,000.00</td>
+                    <td>12,000.00</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <th></th>
+                    <th></th>
+                    <th>Total Factura</th>
+                    <th>$15,000.00</th>
+                  </tr>
+                </tfoot>
+              </table>         
         </div>      
     </div>
 
