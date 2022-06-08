@@ -1,49 +1,39 @@
-
-
-    
     body {
-        margin: 0px auto;
+        margin: 0 auto !important;
         background-color: #fff;
         
     }
     /* par que no tenga margen */
     header{ 
      float: left; 
-     width: 96%; 
-     padding: 1%;
-    
+     width: 100%; 
+     background-color: #144155;    
     }     
-     
-    nav{ 
-        background-color: #007fa2;
+    nav{        
         float: left;
-        width: 96%; 
-        padding: 1%;
-        margin: 1%;
+        width: 100%; 
+        background-color: #007fa2;
        } 
-
     #usuario {
         float: left;
-        width: 50%;
- 
+        width: 33.33%; 
+        text-align: left;
     }
-
+    #usuario h3 {
+        width: 100%; 
+        text-align: center;
+        padding: 1%;
+    }
+    #logo {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+    }
     #sesion {
-        float: right;
-        width: 50%;
- 
-    }
-
-    .sesion { 
-        margin: 1%;
-        float: right;         
+        float: left;
+        width: 33.33%;
+        text-align: right; 
     } 
-   
-    .itemnav { 
-        
-        margin: 1%;
-        float: left; 
-    }  
     ul {
         list-style: none;
     } 
@@ -51,44 +41,33 @@
         text-decoration: none;
         color: rgb(10, 0, 0);
         font-size:x-large;
-    } 
-    
-    #content{/*clase footer*/
+    }     
+    #content{
         float: left;
-        width: 96%; 
-        padding: 1%;
-        margin: 1%;
+        width: 100%; 
     }
-
-    #div1{
+    #formularioDatosFactura{
      float: left;       
-     width: 46%; 
-     padding: 1%;
-     margin: 1%;
+     width: 50%; 
+     background-color: antiquewhite;
     } 
-
-    #div2{ 
+    #detalleFactura{ 
     float: left; 
-     width: 46%; 
-     padding: 1%;
-     margin: 1%;
-    } 
-
-   
-    footer{ 
-        
+     width: 50%; 
+     background-color: antiquewhite;
+    }      
+    footer{         
         float: left; 
-        width: 96%; 
-        padding: 1%;
-        margin: 1%;
+        width: 100%; 
+        background-color: grey;
        } 
 
-    .footer{ /*clase footer*/
+    .footer{ 
      float: left; 
      width: 50%; 
     
     }
-    /* se agrego de w3school */
+   
 
   
 
