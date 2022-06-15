@@ -12,15 +12,15 @@
 
     <header>       
             <div id="usuario">
-                <h3>Bienvenido Usuario CHRISTIAN</h3>
+                <h3>Bienvenido USUARIO</h3>
             </div>
             <div id="logo">
               <img src="imagenes/logo.PNG" alt="logo" width="50px">
             </div>
             <div id="sesion">
                 <ul>
-                    <li class="sesion"><a href="index.html">Inicio</a></li>
-                    <li class="sesion"><a href=".html">Cerrar Sesión</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href=".html">Cerrar Sesión</a></li>
                 </ul>
             </div>               
     </header>    
@@ -34,38 +34,41 @@
           <li class="itemnav"><a href="productos.html">Productos</a></li>          
         </ul>      
     </nav>    
-    <div id="content">
-         <div id="formularioDatosFactura">
-            <form action="formulario.php">
-                <h3>Datos de Factura</h3>
-                <p>
-                    <label>Cliente:</label>
-                    <input type="text" name="cliente"required>
-                </p>
-                <p>
-                    <label>Vendedor:</label>
-                    <input type="text" name="vendedor"  required>
-                </p>
-                <p>
-                    <label>Forma de pago</label>
-                    <select name="pago">
-                        <option value="1"selected>Efectivo</option>
-                        <option value="2">Debito</option>
-                        <option value="3" >Crédito</option>
-                    </select>
-                </p>
-                <p>
-                    <input type="submit" name="" value="Cargar">
-                </p>                  
-            </form> 
-            <form action="formulario.php" method="post">
-                <p>      
-                  Buscar Producto: <input type="search" name="busquedaProducto" placeholder="Nombre, Descripción">      
-                  <input type="submit" value="Buscar">      
-                </p>      
-            </form>                       
+    <div id="facturacion">
+      <div id="contenedorDatos">
+        <div id="formularioDatosFactura">
+          <form action="formulario.php">
+              <h3>Datos de Factura</h3>
+              <p>
+                  <label class="etiquetasDatosFacturas">Cliente:</label>
+                  <input class="inputDatosFacturas" type="text" name="cliente"required>
+              </p>
+              <p>
+                  <label class="etiquetasDatosFacturas">Vendedor:</label>
+                  <input class="inputDatosFacturas" type="text" name="vendedor"  required>
+              </p>
+              <p>
+                  <label class="etiquetasDatosFacturas">Forma de pago</label>
+                  <select class="inputDatosFacturas" name="pago">
+                      <option value="1"selected>Efectivo</option>
+                      <option value="2">Debito</option>
+                      <option value="3" >Crédito</option>
+                  </select>
+              </p>
+              <p>
+                  <input type="submit" name="" value="Cargar">
+              </p>                  
+          </form> 
+          <form action="formulario.php" method="post">
+              <p>      
+                Buscar Producto: <input type="search" name="busquedaProducto" placeholder="Nombre, Descripción">      
+                <input type="submit" value="Buscar">      
+              </p>      
+          </form>                       
         </div>
+      </div>
         <div id="detalleFactura">
+          <div id="contenedorDetallesFacturas">
             <h3>Detalles de Factura </h3> 
             <table class="">
                 <thead>
@@ -101,11 +104,21 @@
               </table>         
         </div>      
     </div>
+          </div>
+            
 
     <footer>       
         <ul>
-            <li class="footer">Contacto</li>
-            <li class="footer">Redes sociales</li>
+            <div id="contacto">
+              <li>Contacto</li>
+            </div>
+            <div id="sociales">
+              <li>Redes sociales</li>
+            </div>
+            <div id="nosotros">
+              <li>Sobre Nosotros</li>
+              <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, tempore.</P>
+            </div>
         </ul>  
     </footer> 
 

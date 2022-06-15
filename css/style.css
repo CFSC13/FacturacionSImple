@@ -14,6 +14,11 @@
         width: 100%; 
         background-color: #007fa2;
        } 
+
+    nav ul li {
+        display: inline;
+        padding: 1%;
+    }
     #usuario {
         float: left;
         width: 33.33%; 
@@ -33,7 +38,11 @@
         float: left;
         width: 33.33%;
         text-align: right; 
-    } 
+    }
+    
+    #sesion li{
+       display: inline; 
+    }
     ul {
         list-style: none;
     } 
@@ -42,30 +51,59 @@
         color: rgb(10, 0, 0);
         font-size:x-large;
     }     
-    #content{
+    #facturacion{
         float: left;
-        width: 100%; 
+        width: 100%;
+        background-color: antiquewhite;
+ 
+    }
+
+    .etiquetasDatosFacturas{
+        float: left;
+        width: 30%;
+    }
+    .inputDatosFacturas{
+        width: 70%;
+    }
+    #contenedorDatos{
+        padding: 2%;
+        text-align: left;
+    }
+    #contenedorDetallesFacturas{
+        padding: 2%;
     }
     #formularioDatosFactura{
+    
      float: left;       
      width: 50%; 
-     background-color: antiquewhite;
     } 
     #detalleFactura{ 
     float: left; 
      width: 50%; 
-     background-color: antiquewhite;
     }      
-    footer{         
+    footer{   
         float: left; 
         width: 100%; 
         background-color: grey;
        } 
-
-    .footer{ 
-     float: left; 
-     width: 50%; 
-    
+       
+    #contacto {
+        float: left;
+        width: 33.33%; 
+        text-align: center;
+    }    
+    #sociales {
+        float: left;
+        width: 33.33%; 
+        text-align: center;
+    }
+    #nosotros {
+        float: left;
+        width: 33.33%; 
+        text-align: center;
+    }
+    #nosotros p {
+        text-align: justify;
     }
    
 
