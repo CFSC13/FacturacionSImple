@@ -68,9 +68,12 @@
     #contenedorDatos{
         padding: 2%;
         text-align: left;
+        border: solid;
+
     }
     #contenedorDetallesFacturas{
         padding: 2%;
+        border: solid;
     }
     #formularioDatosFactura{
     
