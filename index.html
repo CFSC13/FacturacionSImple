@@ -6,21 +6,22 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
     </head>
   
     <body> 
 
-    <header>       
-            <div id="usuario">
-                <h3>Bienvenido USUARIO</h3>
-            </div>
+    <header>  
             <div id="logo">
               <img src="imagenes/logo.PNG" alt="logo" width="50px">
+            </div>     
+            <div id="usuario">
+                <h3>FACTURACIÓN SIMPLE</h3>
             </div>
-            <div id="sesion">
+                       <div id="sesion">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href=".html">Cerrar Sesión</a></li>
+                    <li>Biemvenido Usuario</li>
+                    <i class="fa fa-sign-out" aria-hidden="true">Salir</i>
                 </ul>
             </div>               
     </header>    
@@ -59,7 +60,7 @@
                   <input type="submit" name="" value="Cargar">
               </p>                  
           </form> 
-          <form action="formulario.php" method="post">
+          <form id="formBusqueda" action="formulario.php" method="post">
               <p>      
                 Buscar Producto: <input type="search" name="busquedaProducto" placeholder="Nombre, Descripción">      
                 <input type="submit" value="Buscar">      
