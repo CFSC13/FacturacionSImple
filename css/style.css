@@ -1,13 +1,14 @@
     body {
         margin: 0 auto !important;
         background-color: #fff;
-        
+        font-family: 'Roboto', sans-serif;      
     }
     /* par que no tenga margen */
     header{ 
      float: left; 
      width: 100%; 
-     background-color: #144155;    
+     background-color: #144155;  
+     color:azure; 
     }  
      
    
@@ -15,6 +16,7 @@
         float: left;
         width: 100%; 
         background-color: #007fa2;
+        color:azure;
        } 
 
     nav ul li {
@@ -52,19 +54,22 @@
     #sesion li{
        display: inline; 
     }
+    #sesion i {
+       padding-right: 5%; 
+     }
     ul {
         list-style: none;
     } 
     a{
         text-decoration: none;
-        color: rgb(10, 0, 0);
+        color:azure;
         font-size:x-large;
     }     
     #facturacion{
         float: left;
         width: 100%;
         background-color: antiquewhite;
- 
+        padding-bottom: 10%;
     }
 
     .etiquetasDatosFacturas{
@@ -112,18 +117,33 @@
         float: left; 
         width: 100%; 
         background-color: grey;
+        padding-bottom: 5%;
+        color:aliceblue  
        } 
        
     #contacto {
         float: left;
         width: 33.33%; 
         text-align: center;
-    }    
+    }
+    #contacto p {
+        text-align: left;
+        padding-left: 10%;
+         
+    }
+
+
     #sociales {
         float: left;
         width: 33.33%; 
         text-align: center;
+        padding-bottom: 1%;
     }
+
+    #iconosRedes a { 
+        padding-right: 5%;
+    }
+
     #nosotros {
         float: left;
         width: 33.33%; 
@@ -131,6 +151,7 @@
     }
     #nosotros p {
         text-align: justify;
+        padding-right: 5%;
     }
    
 
