@@ -8,7 +8,7 @@
      float: left; 
      width: 100%; 
      background-color: #144155;  
-     color:azure; 
+     color:rgb(207, 235, 235); 
     }  
      
    
@@ -16,8 +16,9 @@
         float: left;
         width: 100%; 
         background-color: #007fa2;
-        color:azure;
-       } 
+        color:rgb(187, 234, 234); 
+ 
+    } 
 
     nav ul li {
         display: inline;
@@ -62,13 +63,13 @@
     } 
     a{
         text-decoration: none;
-        color:azure;
+        color:rgb(187, 234, 234); 
         font-size:x-large;
     }     
     #facturacion{
         float: left;
         width: 100%;
-        background-color: antiquewhite;
+        background-color: #e6f2f6;
         padding-bottom: 10%;
     }
 
@@ -80,11 +81,17 @@
         width: 70%;
     }
     #contenedorDatos{
-        padding: 2%;
+        padding: 5%;
         text-align: left;     
     }
+    #contenedorDatos h3 {
+        text-align: center;     
+    }
     #contenedorDetallesFacturas{
-        padding: 2%;
+        padding: 5%;
+    }
+    #contenedorDetallesFacturas H3 {
+        text-align: center;    
     }
     #formularioDatosFactura{
     
@@ -94,7 +101,23 @@
     #detalleFactura{ 
     float: left; 
      width: 50%; 
-    }    
+    } 
+    #button {
+        background-color: #007fa2; /* Green */
+        border: none;
+        color:rgb(187, 234, 234); 
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 25%;
+        padding-left: 20%; 
+        padding-right: 20%; 
+        margin-top: 5%;      
+        cursor: pointer;
+
+      }   
     table {
         border-collapse: collapse;
         width: 100%;
@@ -112,13 +135,17 @@
     } 
     #formBusqueda {
         text-align: center;
+        padding-top: 5%;
     }
+    
     footer{   
         float: left; 
         width: 100%; 
-        background-color: grey;
-        padding-bottom: 5%;
-        color:aliceblue  
+        background-color: #144155;
+        padding-bottom: 2%;
+        color:rgb(187, 234, 234); 
+ 
+ 
        } 
        
     #contacto {

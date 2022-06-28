@@ -5,9 +5,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/style.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
 
     </head>
   
@@ -15,15 +15,15 @@
 
     <header>  
             <div id="logo">
-              <img src="imagenes/logo.PNG" alt="logo" width="50px">
+              <img src="imagenes/logo.PNG" alt="logo" width="50px" style="border-radius: 50%;">
             </div>     
             <div id="usuario">
-                <h3>FACTURACIÓN SIMPLE</h3>
+                <h2>FACTURACIÓN SIMPLE</h2>
             </div>
               <div id="sesion">
                 <ul>
-                    <li>Biemvenido Usuario</li>
-                    <i class="fa fa-sign-out fa-lg" aria-hidden="true">Salir</i>
+                    <li>Hola Usuario</li>
+                    <i class="fa fa-sign-out fa-lg" aria-hidden="true"> Salir</i>
                 </ul>
             </div>               
     </header>    
@@ -40,7 +40,7 @@
         <div id="formularioDatosFactura">
           <div id="contenedorDatos">
           <form action="formulario.php">
-              <h3>Datos de Factura</h3>
+              <h3>DATOS DE FACTURA</h3>
               <p>
                   <label class="etiquetasDatosFacturas">Cliente:</label>
                   <input class="inputDatosFacturas" type="text" name="cliente"required>
@@ -58,7 +58,7 @@
                   </select>
               </p>
               <p>
-                  <input type="submit" name="" value="Cargar">
+                  <input id="button" type="submit" name="" value="Cargar">
               </p>                  
           </form> 
           <form id="formBusqueda" action="formulario.php" method="post">
@@ -71,7 +71,7 @@
        </div>
         <div id="detalleFactura">
           <div id="contenedorDetallesFacturas">
-            <h3>Detalles de Factura </h3> 
+            <h3>DETALLES DE FACTURA </h3> 
             <table class="">
                 <thead>
                   <tr>
@@ -130,8 +130,8 @@
             </div>
         </div>
         
-        </footer> 
+      </footer> 
 
     </body>
-    
+  
 </html>
