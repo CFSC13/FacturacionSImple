@@ -10,53 +10,64 @@
   
     <body> 
 
-    <header>
-       
+        <header>  
+            <div id="logo">
+              <img src="imagenes/logo.PNG" alt="logo" width="50px" style="border-radius: 50%;">
+            </div>     
             <div id="usuario">
-                <h3>Bienvenido Usuario CHRISTIAN</h3>
+                <h2>FACTURACIÓN SIMPLE</h2>
             </div>
-            <div id="sesion">
+              <div id="sesion">
                 <ul>
-                    <li class="sesion"><a href="index.html">Inicio</a></li>
-                    <li class="sesion"><a href=".html">Cerrar Sesión</a></li>
+                    <li>Hola Usuario</li>
+                    <i class="fa fa-sign-out fa-lg" aria-hidden="true"> Salir</i>
                 </ul>
             </div>               
     </header>    
        
     <nav>
-        <ul >   
-                  
+        <ul >                     
           <li class="itemnav"><a href="index.html"><span>Facturación</span></a></li>
           <li class="itemnav"><a href="clientes.html">Clientes</a></li>
           <li class="itemnav"><a href="usuarios.html">Usuarios</a></li>
           <li class="itemnav"><a href="productos.html">Productos</a></li>          
         </ul>      
-    </nav> 
+    </nav>   
 
      <!-- se agrego ccs w3school -->
   
     
-    <div id="content">
+    <div id="registroDeClientes">
+      <div id="contenedorRegistroClientes">
         <form action="formulario.php">
-            <h1>Registro de Clientes</h1>
+            <h2>Registro de Clientes</h2>
             <p>
-                <label>Nombre:</label>
-                <input type="text" name="nombre"required>
+                <label class="etiquetaClientes">Nombre:</label>
+                <input class="inputDatosClientes" type="text" name="nombre"required>
             </p>
             <p>
-                <label>Apellido:</label>
-                <input type="text" name="apellido"  required>
+                <label class="etiquetaClientes">Apellido:</label>
+                <input class="inputDatosClientes" type="text" name="apellido"  required>
             </p>
             <p>
-             <label>Email:</label>
-             <input type="email" name="email"  required>
+             <label class="etiquetaClientes">Email:</label>
+             <input class="inputDatosClientes" type="email" name="email"  required>
              </p>
             <p>
                 <input type="submit" name="" value="Registrar">
             </p>                  
         </form> 
+      </div>
+      <div id="contenedorTabla">
+        <h2>Clientes Registrados</h2>
+
+        <form action="formulario.php" method="post">
+          <p>          
+            Buscar Cliente: <input type="search" name="busquedaCLiente" placeholder="Nombre, Apellido">       
+            <input type="submit" value="Buscar">          
+          </p>          
+      </form>
         <table id="">
-            <h1>Lista de clientes</h1>
               <tr>
                 <th>Nombre</th>
                 <th>Apellido</th>
@@ -83,28 +94,33 @@
                 <td>Editar</td>
                 <td>Eliminar</td>
               </tr>                            
-          </table>                       
+          </table>        
+      </div>
     </div>     
     </div>
-
-    <form action="formulario.php" method="post">
-
-        <p>
-      
-          Buscar Cliente: <input type="search" name="busquedaCLiente" placeholder="Nombre, Apellido">
-      
-          <input type="submit" value="Buscar">
-      
-        </p>
-      
-    </form>
-
-    <footer>       
-        <ul>
-            <li class="footer">Contacto</li>
-            <li class="footer">Redes sociales</li>
-        </ul>  
-    </footer> 
+    <footer>   
+        <div class="">    
+              <div id="contacto">
+                <h2>Contacto</h2>  
+                <p><i class="fa fa-envelope fa-2x" aria-hidden="true"></i> facturacionsimple@gmail.com</p>      
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d452826.4032086733!2d-56.11443484119269!3d-27.54058302522636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457c832c18323a3%3A0xbf14b657c06266e4!2sCapital%2C%20Misiones!5e0!3m2!1ses!2sar!4v1655853008867!5m2!1ses!2sar" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div id="sociales">
+               <h2>Redes Sociales</h2>
+                <div id="iconosRedes">
+                    <a href="#" class="fa fa-facebook fa-2x"></a>
+                    <a href="#" class="fa fa-instagram fa-2x"></a>
+                    <a href="#" class="fa fa-twitter fa-2x"></a>
+                    <a href="#" class="fa fa-youtube fa-2x"></a>
+                </div>
+              </div>
+              <div id="nosotros">
+                <h2>Sobre Nosotros</h2>
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, tempore.</P>
+              </div>
+          </div>
+          
+        </footer> 
 
     </body>
     

@@ -71,6 +71,17 @@
         width: 100%;
         background-color: #e6f2f6;
         padding-bottom: 10%;
+    
+    }
+    #contenedorRegistroClientes{
+        padding: 2%;
+        float: left;
+        width: 30%;
+    }
+    #contenedorTabla{
+        padding: 2%;
+        float: left;
+        width: 70%;
     }
 
     .etiquetasDatosFacturas{
@@ -80,9 +91,18 @@
     .inputDatosFacturas{
         width: 70%;
     }
+    .etiquetaClientes{
+        float: left;
+        width: 30%;
+    }
+    .inputDatosClientes{
+        width: 70%;
+    }
+   
     #contenedorDatos{
         padding: 5%;
-        text-align: left;     
+        text-align: left;  
+           
     }
     #contenedorDatos h3 {
         text-align: center;     
@@ -96,12 +116,18 @@
     #formularioDatosFactura{
     
      float: left;       
-     width: 50%; 
+     width: 50%;
+
     } 
     #detalleFactura{ 
     float: left; 
      width: 50%; 
     } 
+
+    #tablaClientes{
+        float: left;       
+        width: 50%;
+    }
     #button {
         background-color: #007fa2; /* Green */
         border: none;
@@ -137,6 +163,20 @@
         text-align: center;
         padding-top: 5%;
     }
+
+    #registroDeClientes{
+        float: left;
+        width: 100%;
+        background-color: #e6f2f6;
+        padding-bottom: 10%;  
+    }
+    #RegistroProducto{
+        float: left;
+        width: 100%;
+        background-color: #e6f2f6;
+        padding-bottom: 10%;  
+    }
+    
     
     footer{   
         float: left; 
@@ -144,9 +184,7 @@
         background-color: #144155;
         padding-bottom: 2%;
         color:rgb(187, 234, 234); 
- 
- 
-       } 
+        } 
        
     #contacto {
         float: left;
@@ -158,8 +196,6 @@
         padding-left: 10%;
          
     }
-
-
     #sociales {
         float: left;
         width: 33.33%; 
