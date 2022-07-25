@@ -152,24 +152,58 @@
         margin-right: 1%;
       }
       table {
-        font-family: arial, sans-serif;
         border-collapse: collapse;
         width: 100%;
       }
       
       td, th {
-        border: 1px solid #989799;
-        text-align: left;
-        padding: 8px;
+        border: 1px solid #a7a4ab;
+        text-align: center;
+        padding: 1%;
+        width: 20%;
       }
       
       tr:nth-child(even) {
-        background-color: #989799;
+        background-color: #d0cfd1;
       }
     #formBusqueda {
         text-align: center;
         padding-top: 5%;
     }
+    .botonAccion {
+        border: none;
+        color: white;
+        padding: 3%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-right: 10%;
+      }
+      
+      .botonAccionEliminar {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #c90e0e;
+      }
+      
+      .botonAccionEliminar:hover {
+        background-color: #c90e0e;
+        color: white;
+      }
+      
+      .botonAccionEditar {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+      }
+      
+      .botonAccionEditar:hover {
+        background-color: #008CBA;
+        color: white;
+      }
 
     #registroDeClientes{
         float: left;
