@@ -56,17 +56,16 @@
                       <option value="2">Debito</option>
                       <option value="3" >Crédito</option>
                   </select>
-              </p>
-              <p>
-                  <input id="button" type="submit" name="" value="Cargar">
-              </p>                  
+              </p>                           
           </form> 
-          <form id="formBusqueda" action="formulario.php" method="post">
-              <p>      
-                Buscar Producto: <input type="search" name="busquedaProducto" placeholder="Nombre, Descripción">      
-                <input type="submit" value="Buscar">      
-              </p>      
-          </form>                       
+          <form action="formulario.php" method="post">
+            <p id="contenedorBuscarProducto">          
+              <input id="campoBusqueda" type="search" name="busquedaCLiente" placeholder="Descripción">       
+              <input id="buttonBuscarProductos" type="submit" value="Buscar Producto">          
+            </p>  
+            <br>        
+        </form> 
+                                
          </div>
        </div>
         <div id="detalleFactura">

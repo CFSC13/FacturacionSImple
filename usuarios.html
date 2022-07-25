@@ -37,37 +37,15 @@
      <!-- se agrego ccs w3school -->
   
     
-    <div id="registroDeClientes">
-      <div id="contenedorRegistroClientes">
-        <form action="formulario.php">
-            <h2>Registro de Usuarios</h2>
-            <p>
-                <label class="etiquetaClientes">Nombre:</label>
-                <input class="inputDatosClientes" type="text" name="nombre"required>
-            </p>
-            <p>
-                <label class="etiquetaClientes">Apellido:</label>
-                <input class="inputDatosClientes" type="text" name="apellido"  required>
-            </p>
-            <p>
-             <label class="etiquetaClientes">Email:</label>
-             <input class="inputDatosClientes" type="email" name="email"  required>
-             </p>
-            <p>
-                <input type="submit" name="" value="Registrar">
-            </p>                  
-        </form> 
-      </div>
+    <div id="registroDeClientes">      
       <div id="contenedorTabla">
-        <h2>Usuarios Registrados</h2>
-
+        <h2>Usuarios Registrados</h2>        
         <form action="formulario.php" method="post">
-          <p>          
-            Buscar Usuario: <input type="search" name="busquedaCLiente" placeholder="Nombre, Apellido">       
-            <input type="submit" value="Buscar">          
-          </p>   
-          <br>       
-      </form>
+          <p id="contenedorBuscarProducto">          
+            <input id="campoBusqueda" type="search" name="busquedaCLiente" placeholder="Nombre, Apellido, Mail...">       
+            <input id="buttonBuscarProductos" type="submit" value="Buscar">          
+          </p>  
+        </form>
         <table id="">
               <tr>
                 <th>Nombre</th>
@@ -100,6 +78,26 @@
                 <td>Eliminar</td>
               </tr>                            
           </table>        
+      </div>
+      <div id="contenedorRegistroClientes">
+        <form action="formulario.php">
+            <h2>Registro de Usuarios</h2>
+            <p>
+                <label class="etiquetaClientes">Nombre:</label>
+                <input class="inputDatosClientes" type="text" name="nombre"required>
+            </p>
+            <p>
+                <label class="etiquetaClientes">Apellido:</label>
+                <input class="inputDatosClientes" type="text" name="apellido"  required>
+            </p>
+            <p>
+             <label class="etiquetaClientes">Email:</label>
+             <input class="inputDatosClientes" type="email" name="email"  required>
+             </p>
+            <p>
+              <input id="buttonBuscarProductos" type="submit" value="Registrar"> 
+            </p>                  
+        </form> 
       </div>
     </div>     
     </div>

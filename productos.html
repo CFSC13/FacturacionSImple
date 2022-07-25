@@ -33,41 +33,17 @@
           <li class="itemnav"><a href="productos.html">Productos</a></li>          
         </ul>      
     </nav>   
-
-     <!-- se agrego ccs w3school -->
-  
-    
+   
     <div id="registroDeClientes">
-      <div id="contenedorRegistroClientes">
-        <form action="formulario.php">
-            <h2>Registro de Productos</h2>
-            <p>
-                <label class="etiquetaClientes">Descripción:</label>
-                <input class="inputDatosClientes" type="text" name="nombre"required>
-            </p>
-            <p>
-                <label class="etiquetaClientes">Precio:</label>
-                <input class="inputDatosClientes" type="text" name="apellido"  required>
-            </p>
-            <p>
-             <label class="etiquetaClientes">Stock:</label>
-             <input class="inputDatosClientes" type="email" name="email"  required>
-             </p>
-            <p>
-                <input type="submit" name="" value="Registrar">
-            </p>                  
-        </form> 
-      </div>
+      
       <div id="contenedorTabla">
         <h2>Productos Registrados</h2>
-
         <form action="formulario.php" method="post">
-          <p>          
-            Buscar Producto: <input type="search" name="busquedaCLiente" placeholder="Descripción">       
-            <input type="submit" value="Buscar">          
+          <p id="contenedorBuscarProducto">          
+            <input id="campoBusqueda" type="search" name="busquedaCLiente" placeholder="Descripción">       
+            <input id="buttonBuscarProductos" type="submit" value="Buscar">          
           </p>  
-          <br>        
-      </form>
+        </form>
         <table id="">
               <tr>
                 <th>Producto</th>
@@ -96,6 +72,26 @@
                 <td>Eliminar</td>
               </tr>                            
           </table>        
+      </div>
+      <div id="contenedorRegistroClientes">
+        <form action="formulario.php">
+            <h2>Registro de Productos</h2>
+            <p>
+                <label class="etiquetaClientes">Descripción:</label>
+                <input class="inputDatosClientes" type="text" name="nombre"required>
+            </p>
+            <p>
+                <label class="etiquetaClientes">Precio:</label>
+                <input class="inputDatosClientes" type="text" name="apellido"  required>
+            </p>
+            <p>
+             <label class="etiquetaClientes">Stock:</label>
+             <input class="inputDatosClientes" type="email" name="email"  required>
+             </p>
+            <p>
+              <input id="buttonBuscarProductos" type="submit" value="Registrar"> 
+            </p>                  
+        </form> 
       </div>
     </div>     
     </div>
