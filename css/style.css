@@ -151,21 +151,21 @@
         float: left;
         margin-right: 1%;
       }
-    table {
+      table {
+        font-family: arial, sans-serif;
         border-collapse: collapse;
         width: 100%;
-    }
-     
- 
-    thead th, td 
-    {
-        border: 1px solid black;
-    }
-     
-    th,
-    td {
-        padding: 5px;
-    } 
+      }
+      
+      td, th {
+        border: 1px solid #989799;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #989799;
+      }
     #formBusqueda {
         text-align: center;
         padding-top: 5%;
