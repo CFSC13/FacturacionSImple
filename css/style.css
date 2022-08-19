@@ -159,8 +159,8 @@
       td, th {
         border: 1px solid #a7a4ab;
         text-align: center;
-        padding: 1%;
-        width: 20%;
+        width: auto;
+        margin: 0;
       }
       
       tr:nth-child(even) {
@@ -173,14 +173,14 @@
     .botonAccion {
         border: none;
         color: white;
-        padding: 3%;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
         transition-duration: 0.4s;
         cursor: pointer;
-        margin-right: 10%;
+        margin-right: 5%;
+        padding: 1%;
       }
       
       .botonAccionEliminar {
@@ -258,6 +258,17 @@
         padding-right: 5%;
     }
    
-
+    @media (max-width: 600px) {
+         .itemnav {
+            width: 100%;
+            display: block;
+        }    
+    }
+    @media (max-width: 600px) {
+        #formularioDatosFactura, #detalleFactura {
+           width: 100%;
+           float: none;
+       }    
+   }
   
 

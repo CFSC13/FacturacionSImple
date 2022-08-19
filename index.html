@@ -35,33 +35,32 @@
     <div id="facturacion">
         <div id="formularioDatosFactura">
           <div id="contenedorDatos">
-          <form action="formulario.php">
-              <h3>DATOS DE FACTURA</h3>
-              <p>
-                  <label class="etiquetasDatosFacturas">Cliente:</label>
-                  <input class="inputDatosFacturas" type="text" name="cliente"required>
-              </p>
-              <p>
-                  <label class="etiquetasDatosFacturas">Vendedor:</label>
-                  <input class="inputDatosFacturas" type="text" name="vendedor"  required>
-              </p>
-              <p>
-                  <label class="etiquetasDatosFacturas">Forma de pago</label>
-                  <select class="inputDatosFacturas" name="pago">
-                      <option value="1"selected>Efectivo</option>
-                      <option value="2">Debito</option>
-                      <option value="3" >Crédito</option>
-                  </select>
-              </p>                           
-          </form> 
-          <form action="formulario.php" method="post">
-            <p id="contenedorBuscarProducto">          
-              <input id="campoBusqueda" type="search" name="busquedaCLiente" placeholder="Descripción">       
-              <input id="buttonBuscarProductos" type="submit" value="Buscar Producto">          
-            </p>  
-            <br>        
-        </form> 
-                                
+            <form action="formulario.php">
+                <h3>DATOS DE FACTURA</h3>
+                <p>
+                    <label class="etiquetasDatosFacturas">Cliente:</label>
+                    <input class="inputDatosFacturas" type="text" name="cliente"required>
+                </p>
+                <p>
+                    <label class="etiquetasDatosFacturas">Vendedor:</label>
+                    <input class="inputDatosFacturas" type="text" name="vendedor"  required>
+                </p>
+                <p>
+                    <label class="etiquetasDatosFacturas">Forma de pago</label>
+                    <select class="inputDatosFacturas" name="pago">
+                        <option value="1"selected>Efectivo</option>
+                        <option value="2">Debito</option>
+                        <option value="3" >Crédito</option>
+                    </select>
+                </p>                           
+            </form> 
+            <form action="formulario.php" method="post">
+              <p id="contenedorBuscarProducto">          
+                <input id="campoBusqueda" type="search" name="busquedaCLiente" placeholder="Descripción">       
+                <input id="buttonBuscarProductos" type="submit" value="Buscar Producto">          
+              </p>  
+              <br>        
+            </form>                                 
          </div>
        </div>
         <div id="detalleFactura">
