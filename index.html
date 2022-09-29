@@ -40,11 +40,7 @@
                 <p>
                     <label class="etiquetasDatosFacturas">Cliente:</label>
                     <input class="inputDatosFacturas" type="text" name="cliente"required>
-                </p>
-                <p>
-                    <label class="etiquetasDatosFacturas">Vendedor:</label>
-                    <input class="inputDatosFacturas" type="text" name="vendedor"  required>
-                </p>
+                </p>              
                 <p>
                     <label class="etiquetasDatosFacturas">Forma de pago</label>
                     <select class="inputDatosFacturas" name="pago">
@@ -56,7 +52,7 @@
             </form> 
             <form action="formulario.php" method="post">
               <p id="contenedorBuscarProducto">          
-                <input id="campoBusqueda" type="search" name="busquedaCLiente" placeholder="Descripción">       
+                <input id="campoBusqueda" type="search" name="busquedaCLiente" placeholder="Descripción, código de barras">       
                 <input id="buttonBuscarProductos" type="submit" value="Buscar Producto">          
               </p>  
               <br>        
@@ -100,29 +96,54 @@
               </table>         
             </div>      
       </div>
-  </div>          
-
-    <footer>   
-      <div class="">    
-            <div id="contacto">
-              <h2>Contacto</h2>  
-              <p><i class="fa fa-envelope fa-2x" aria-hidden="true"></i> facturacionsimple@gmail.com</p>      
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d452826.4032086733!2d-56.11443484119269!3d-27.54058302522636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457c832c18323a3%3A0xbf14b657c06266e4!2sCapital%2C%20Misiones!5e0!3m2!1ses!2sar!4v1655853008867!5m2!1ses!2sar" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div id="sociales">
-             <h2>Redes Sociales</h2>
-              <div id="iconosRedes">
-                  <a href="#" class="fa fa-facebook fa-2x"></a>
-                  <a href="#" class="fa fa-instagram fa-2x"></a>
-                  <a href="#" class="fa fa-twitter fa-2x"></a>
-                  <a href="#" class="fa fa-youtube fa-2x"></a>
+      <div id="contenedorTabla">
+        <table id="">
+          <tr>
+            <th>Código</th>
+            <th>Cod Barra</th>
+            <th>Nombre</th>
+            <th>Categoría</th>
+            <th>Precio ($)</th>
+            <th>Stock</th>  
+            <th>Acción</th>        
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>999999999999</td>
+            <td>Teclado</td>
+            <td>Componentes de PC</td>
+            <td>50</td>
+            <td>3</td>
+            <td>
+              <button class="botonAccion botonAccionEliminar">Agregar</button>
+            </td>
+          </tr>
+          </table>  
+        </div>    
+      
+          <footer>   
+            <div class="">    
+                  <div id="contacto">
+                    <h2>Contacto</h2>  
+                    <p><i class="fa fa-envelope fa-2x" aria-hidden="true"></i> facturacionsimple@gmail.com</p>      
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d452826.4032086733!2d-56.11443484119269!3d-27.54058302522636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457c832c18323a3%3A0xbf14b657c06266e4!2sCapital%2C%20Misiones!5e0!3m2!1ses!2sar!4v1655853008867!5m2!1ses!2sar" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                  <div id="sociales">
+                   <h2>Redes Sociales</h2>
+                    <div id="iconosRedes">
+                        <a href="#" class="fa fa-facebook fa-2x"></a>
+                        <a href="#" class="fa fa-instagram fa-2x"></a>
+                        <a href="#" class="fa fa-twitter fa-2x"></a>
+                        <a href="#" class="fa fa-youtube fa-2x"></a>
+                    </div>
+                  </div>
+                  <div id="nosotros">
+                    <h2>Sobre Nosotros</h2>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, tempore.</P>
+                  </div>
               </div>
-            </div>
-            <div id="nosotros">
-              <h2>Sobre Nosotros</h2>
-              <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, tempore.</P>
-            </div>
-        </div>
+  </div>  
+  
         
       </footer> 
 

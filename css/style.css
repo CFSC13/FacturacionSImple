@@ -70,7 +70,7 @@
         float: left;
         width: 100%;
         background-color: #e6f2f6;
-        padding-bottom: 10%;
+        padding-bottom: 2%;
     
     }
     #contenedorRegistroClientes{
@@ -81,7 +81,7 @@
     #contenedorTabla{
         padding: 2%;
         float: left;
-        width: 70%;
+        width: 60%;
     }
 
     .etiquetasDatosFacturas{
@@ -93,10 +93,10 @@
     }
     .etiquetaClientes{
         float: left;
-        width: 30%;
+        width: 40%;
     }
     .inputDatosClientes{
-        width: 70%;
+        width: 60%;
     }
    
     #contenedorDatos{
@@ -116,12 +116,12 @@
     #formularioDatosFactura{
     
      float: left;       
-     width: 50%;
+     width: 60%;
 
     } 
     #detalleFactura{ 
     float: left; 
-     width: 50%; 
+     width: 40%; 
     } 
 
     #tablaClientes{

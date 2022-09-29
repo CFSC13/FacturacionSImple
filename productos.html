@@ -40,19 +40,37 @@
         <h2>Productos Registrados</h2>
         <form action="formulario.php" method="post">
           <p id="contenedorBuscarProducto">          
-            <input id="campoBusqueda" type="search" name="busquedaCLiente" placeholder="Descripción">       
+            <input id="campoBusqueda" type="search" name="busquedaCLiente" placeholder="Descripción, código de barras">       
             <input id="buttonBuscarProductos" type="submit" value="Buscar">          
           </p>  
         </form>
         <table id="">
               <tr>
-                <th>Producto</th>
-                <th>Precio</th>
+                <th>Código</th>
+                <th>Cod Barra</th>
+                <th>Nombre</th>
+                <th>Categoría</th>
+                <th>Precio ($)</th>
                 <th>Stock</th>  
                 <th>Acción</th>        
               </tr>
               <tr>
+                <td>1</td>
+                <td>999999999999</td>
                 <td>Teclado</td>
+                <td>Componentes de PC</td>
+                <td>50</td>
+                <td>3</td>
+                <td>
+                  <button class="botonAccion botonAccionEliminar">Eliminar</button>
+                  <button class="botonAccion botonAccionEditar">Editar</button>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>999999999999</td>
+                <td>Teclado</td>
+                <td>Componentes de PC</td>
                 <td>50</td>
                 <td>3</td>
                 <td>
@@ -60,15 +78,10 @@
                   <button class="botonAccion botonAccionEditar">Editar</button></td>
               </tr>
               <tr>
-                <td>Teclado</td>
-                <td>50</td>
                 <td>3</td>
-                <td>
-                  <button class="botonAccion botonAccionEliminar">Eliminar</button>
-                  <button class="botonAccion botonAccionEditar">Editar</button></td>
-              </tr>
-              <tr>
+                <td>999999999999</td>
                 <td>Teclado</td>
+                <td>Componentes de PC</td>
                 <td>50</td>
                 <td>3</td>
                 <td>
@@ -81,8 +94,16 @@
         <form action="formulario.php">
             <h2>Registro de Productos</h2>
             <p>
-                <label class="etiquetaClientes">Descripción:</label>
+                <label class="etiquetaClientes">Nombre:</label>
                 <input class="inputDatosClientes" type="text" name="nombre"required>
+            </p>
+            <p>
+              <label class="etiquetaClientes">Categoría:</label>
+              <input class="inputDatosClientes" type="text" name="nombre"required>
+            </p>
+            <p>
+              <label class="etiquetaClientes">Código de barras:</label>
+              <input class="inputDatosClientes" type="text" name="nombre"required>
             </p>
             <p>
                 <label class="etiquetaClientes">Precio:</label>
